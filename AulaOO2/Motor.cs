@@ -21,29 +21,31 @@ Também deverão ser criados dois métodos visíveis a qualquer classe, sendo qu
         private int _potencia;
         private string _tipo;
 
-       /* public string getNomeFabricante()
-        {
-            return this._nomeFabricante;
-        }
+        /* public string getNomeFabricante()
+         {
+             return this._nomeFabricante;
+         }
 
-        public void setNomeFabricante(string nomeFabricante)
-        {
-            this._nomeFabricante = nomeFabricante;
-        }*/
+         public void setNomeFabricante(string nomeFabricante)
+         {
+             this._nomeFabricante = nomeFabricante;
+         }*/
 
-        public int potencia
-        {
-            get
-            {
-                return _potencia;
-            }
-            set
-            {
-                _potencia = value;
-            }
-        }
+        public int potencia { get => _potencia; set => _potencia = value; }
 
-        public string nomeFabricante
+        /* public int potencia
+         {
+             get
+             {
+                 return _potencia;
+             }
+             set
+             {
+                 _potencia = value;
+             }
+         }*/
+        public string nomeFabricante { get => _nomeFabricante; set => _nomeFabricante = value; }
+        /* public string nomeFabricante
         {
             set
             {
@@ -53,8 +55,7 @@ Também deverão ser criados dois métodos visíveis a qualquer classe, sendo qu
             {
                 return _nomeFabricante;
             }
-
-        }
+        }*/
 
         public string tipo
         {

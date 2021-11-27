@@ -32,7 +32,11 @@ namespace AulaOO2
             m.nomeFabricante = "Britania";
             m.potencia = 150;
             m.tipo = "Elétrico";
-            m.mostraDados();
+            //m.mostraDados();
+
+            Console.WriteLine("Fabricante: "+m.nomeFabricante);
+            Console.WriteLine("Potencia: "+m.potencia);
+            Console.WriteLine("Tipo: "+m.tipo);
 
 
 
