@@ -38,6 +38,15 @@ namespace AulaOO2
             Console.WriteLine("Potencia: "+m.potencia);
             Console.WriteLine("Tipo: "+m.tipo);
 
+            Carro c = new Carro();
+            c.portas = 4;
+
+            int i;
+            for (i = 0; i < 100; i++)
+            {
+                c.acelera();
+            }
+            c._velocidade = 100;
 
 
 
